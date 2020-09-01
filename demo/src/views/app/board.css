@@ -1,0 +1,73 @@
+#app {
+    width: 100%;
+    height: 100%;
+}
+
+.board {
+    width: 100%;
+    height: 100%;
+    background: #0F142A;
+    padding: 1%;
+}
+
+.h33 {
+    height: 33%;
+}
+
+.h66 {
+    height: 66%;
+}
+
+.app-col {
+    width: 33%;
+    height: 100%;
+    display: inline-block;
+    padding-bottom: 0.5%;
+    margin-right: 0.5%;
+    vertical-align: top;
+}
+
+.app-row .app-col:last-child {
+    margin-right: 0;
+}
+
+.border-box-contaier {
+    border: 1px solid #133972;
+    border-radius: 2px;
+    background: #14192F;
+    height: 100%;
+}
+
+.chart-50 {
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+}
+
+.chart-100 {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+
+.h100 {
+    height: 100%;
+}
+
+.h50 {
+    height: 50%;
+}
+
+.app-table-title {
+    color: #9addff;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 700;
+}
+
+.app-table-body {
+    width: 100%;
+    height: calc(100% - 35px);
+    padding: 20px;
+}
